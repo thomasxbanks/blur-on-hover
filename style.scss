@@ -1,0 +1,26 @@
+ul.menu_hover {
+  width: 300px;
+  font-size: 0;
+  li.nav_item {
+	display: block;
+	width: 100%;
+	background: #444444;
+	font-size: 16px;
+	color: #ffffff;
+	text-shadow: 0 0 0 rgba(#ffffff, 0.7);
+	text-align: center;
+	padding: 10px;
+	transition: ease-out 0.25s;
+	&:hover {
+	  cursor: pointer;
+	  color: #ffffff !important;
+	  text-shadow: 0 0 0 rgba(#ffffff, 0.7) !important;
+	}
+  }
+  &:hover {
+	li.nav_item {
+	  color: rgba(#ffffff, 0.2);
+	  text-shadow: 0 0 3px rgba(#ffffff, 0.7);
+	}
+  }
+}
